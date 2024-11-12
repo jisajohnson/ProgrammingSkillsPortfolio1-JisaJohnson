@@ -21,10 +21,10 @@ else:
 
 #Advanced Requirements
 
-leapyearcheck=input("Is it leap year? (yes/no)")
-leapyear="Yes"
+leapyearcheck=input("Is it leap year?")
+leapyearcheck1= "Yes"
 
-if leapyearcheck.lower() == "yes":
+if leapyearcheck.lower() == leapyearcheck1.lower():
     print("February has 29 days in leap year.")
 else:
     print("February has 28 days in non-leap year")
