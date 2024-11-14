@@ -1,7 +1,7 @@
 #3. Biography
 information={"Name":"Jisa Johnson",
              "Hometown":"Fujairah",
-             "Age":20} #creating a dictionary with personal details
+             "Age":21} #creating a dictionary with personal details
 for key, value in information.items(): #Using for function with key-values to show in separate line
     print(f"{key}:{value}") #Prints the information in separate lines
 
