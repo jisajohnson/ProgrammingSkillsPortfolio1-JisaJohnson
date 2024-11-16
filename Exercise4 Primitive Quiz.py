@@ -9,12 +9,14 @@ else:
 
 #Advanced Requirements
 print("Capitals of European Countries Quiz!")
+score=0
 print("Question 1")
 question1=input("What is the Capital of Germany?")
 answer1="Berlin"
 
 if question1.lower()==answer1.lower():
     print("Correct!",answer1,"is the right answer!")
+    score += 1
 else:
     print("Wrong answer! The correct answer is",answer1)
 
@@ -24,6 +26,7 @@ answer2="Madrid"
 
 if question2.lower()==answer2.lower():
     print("Correct!",answer2,"is the right answer!")
+    score += 1
 else:
     print("Wrong answer! The correct answer is",answer2)
 
@@ -33,6 +36,7 @@ answer3="Oslo"
 
 if question3.lower()==answer3.lower():
     print("Correct!",answer3,"is the right answer!")
+    score += 1
 else:
     print("Wrong answer! The correct answer is",answer3)
 
@@ -42,6 +46,7 @@ answer4="Helsinki"
 
 if question4.lower()==answer4.lower():
     print("Correct!",answer4,"is the right answer!")
+    score += 1
 else:
     print("Wrong answer! The correct answer is",answer4)
 
@@ -51,6 +56,7 @@ answer5="Coppenhagen"
 
 if question5.lower()==answer5.lower():
     print("Correct!",answer5,"is the right answer!")
+    score += 1
 else:
     print("Wrong answer! The correct answer is",answer5)
 
@@ -60,6 +66,7 @@ answer6="Lisbon"
 
 if question6.lower()==answer6.lower():
     print("Correct!",answer6,"is the right answer!")
+    score += 1
 else:
     print("Wrong answer! The correct answer is",answer6)
 
@@ -69,6 +76,7 @@ answer7="Warsaw"
 
 if question7.lower()==answer7.lower():
     print("Correct!",answer7,"is the right answer!")
+    score += 1
 else:
     print("Wrong answer! The correct answer is",answer7)
 
@@ -78,6 +86,7 @@ answer8="Stockholm"
 
 if question8.lower()==answer8.lower():
     print("Correct!",answer8,"is the right answer!")
+    score += 1
 else:
     print("Wrong answer! The correct answer is",answer8)
 
@@ -87,6 +96,7 @@ answer9="Bratislava"
 
 if question9.lower()==answer9.lower():
     print("Correct!",answer9,"is the right answer!")
+    score += 1
 else:
     print("Wrong answer! The correct answer is",answer9)
 
@@ -96,5 +106,11 @@ answer10="Kyiv"
 
 if question10.lower()==answer10.lower():
     print("Correct!",answer10,"is the right answer!")
+    score += 1
 else:
     print("Wrong answer! The correct answer is",answer10)
+
+if score >= 6:
+    print("Congratulations! You have passed the quiz. Your total score is",score,"out of 10 questions.")
+else:
+    print("Oh no! You have not passed the quiz, better luck next time. Your total score is",score,"out of 10 questions.")
