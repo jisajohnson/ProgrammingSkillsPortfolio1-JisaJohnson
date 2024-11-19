@@ -1,7 +1,7 @@
 #7. Some Counting
 #0 to 50 increments of 1
 print("A loop that counts up from 0 to 50 in increments of 1")
-for i in range(1,51): #a loop that counts from 0 to 50 in increment of 1
+for i in range(0,51): #a loop that counts from 0 to 50 in increment of 1
     print(i)
 
 #Counts down from 50 to 0 in decrement of 1.
