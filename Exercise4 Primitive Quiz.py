@@ -1,22 +1,22 @@
 #4. Primitive Quiz
-question=input("What is the capital of France?")
-answer="Paris"
+question=input("What is the capital of France?") #Asks the user the question and they need to type it in
+answer="Paris" #This is the answer to the question
 
-if question.lower()==answer.lower():
-    print("Correct! Congratulations!",answer,"is the right answer")
+if question.lower()==answer.lower(): #lower.() is used to make the input case insensitive
+    print("Correct! Congratulations!",answer,"is the right answer") #If the answer is correct it shows this message
 else:
-    print("Wrong! The answer is",answer)
+    print("Wrong! The answer is",answer) #if the answer is wrong this message will be shown
 
 #Advanced Requirements
 print("Capitals of European Countries Quiz!")
-score=0
+score=0 #it is used to check how many questions the user has answered correctly
 print("Question 1")
 question1=input("What is the Capital of Germany?")
 answer1="Berlin"
 
 if question1.lower()==answer1.lower():
     print("Correct!",answer1,"is the right answer!")
-    score += 1
+    score += 1 #If the answer is correct user gets 1 point
 else:
     print("Wrong answer! The correct answer is",answer1)
 
@@ -110,7 +110,7 @@ if question10.lower()==answer10.lower():
 else:
     print("Wrong answer! The correct answer is",answer10)
 
-if score >= 6:
-    print("Congratulations! You have passed the quiz. Your total score is",score,"out of 10 questions.")
+if score >= 6: #the pass mark for this quiz is 6 or above
+    print("Congratulations! You have passed the quiz. Your total score is",score,"out of 10 questions.") #if they got 6 or more they have passed the test
 else:
-    print("Oh no! You have not passed the quiz, better luck next time. Your total score is",score,"out of 10 questions.")
+    print("Oh no! You have not passed the quiz, better luck next time. Your total score is",score,"out of 10 questions.") #if not, they have failed the test and need to do better next time
